@@ -124,8 +124,7 @@ def main():
     st.title("🖼️ Deepfake vs Real — Image Detector")
 
     st.markdown(
-        "This app loads an image-classification model from the Hugging Face Hub. "
-        "Set HF_MODEL_ID (and HF_TOKEN for private models) as environment variables."
+        "This app is based on Image Classification."
     )
 
     MODEL_ID = os.getenv("HF_MODEL_ID") or "sampujit/DeepFake"

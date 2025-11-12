@@ -1,0 +1,5 @@
+main.ipynb
+model/
+datasets/
+.venv/
+deepfake_vs_real_image_detection/

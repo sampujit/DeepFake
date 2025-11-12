@@ -181,8 +181,7 @@ def main():
 
     st.markdown("---")
     st.caption(
-        "Notes: The app loads the model directly from the Hugging Face Hub via transformers.from_pretrained. "
-        "If the model is private, set HF_TOKEN. Ensure the repository is an image-classification model."
+        "Notes: The app loads the model directly that is trained for real/fake detection by the owner Sampujit."
     )
 
 
